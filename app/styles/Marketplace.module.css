@@ -1,0 +1,9 @@
+.marketcontainer {
+  width: 80vw;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+}
