@@ -1,9 +1,32 @@
 .navcontainer {
   width: 100vw;
-  display: flex;
+
   align-items: center;
-  justify-content: space-around;
 
   background-color: #0e0e0e;
   color: #fff;
+}
+
+.navcontainer__content {
+  max-width: 148vh;
+  justify-content: space-between;
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.logout {
+  padding: 0.7em 1em;
+  border-radius: 4px;
+  background-color: #d80000;
+  color: #fff;
+  border: none;
+}
+
+.login {
+  padding: 0.7em 1em;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #0e0e0e;
+  border: none;
 }

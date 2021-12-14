@@ -1,0 +1,28 @@
+.product__container {
+  text-align: center;
+  margin: 0 auto 0 auto;
+}
+
+.product__container img {
+  width: 30%;
+}
+
+.product__container_img {
+  background-color: #eeeeee;
+}
+
+.product__container_infos {
+  display: flex;
+  justify-content: space-around;
+  max-width: 100vh;
+
+  margin: 0 auto;
+}
+
+.product__container_desc {
+  max-width: 110vh;
+  margin: 0 auto;
+  text-align: left;
+  padding: 0 10vh;
+  font-size: 18px;
+}
