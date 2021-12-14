@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import styles from '../styles/Marketplace.module.css';
 import Card from './Card';
+import { useRouter } from 'next/router';
 
 export default function Marketplace() {
   const [user, setUser] = useState(null);
