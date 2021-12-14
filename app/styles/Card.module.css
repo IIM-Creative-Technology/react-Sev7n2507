@@ -21,5 +21,14 @@
 }
 
 .cardcontainer button {
-  margin-bottom: 5px;
+  margin-bottom: 8px;
+  width: 15vw;
+  height: 3vw;
+  color: #ffffff;
+  background-color: #0e0e0e;
+  border: none;
+}
+
+.cardcontainer button:hover {
+  cursor: pointer;
 }
